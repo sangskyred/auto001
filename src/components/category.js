@@ -11,7 +11,7 @@ const Category = () => {
                     width={500}
                     height={300}
                 />
-                <h3>Wireless Tech</h3>
+                <h3>Wireless Tech1</h3>
             </div>
             <div className="product-card">
                 <Image
