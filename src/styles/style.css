@@ -82,9 +82,9 @@
         }
 
         @media (max-width: 480px) {
-            .product-card {
+            /* .product-card {
                 flex: 0 0 calc(100% - 20px);
-            }
+            } */
 
             .action button {
                 font-size: 18px;
