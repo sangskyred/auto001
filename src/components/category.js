@@ -6,7 +6,7 @@ const Category = () => {
         <div className="product-grid">
             <div className="product-card">
                 <Image
-                    src="https://www.codewithfaraz.com/shop_img/master-collection-of-web-and-python-projects.webp"
+                    src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2025/Q1DefectReduction/Fuji_Defect_Reduction_2x_Headphones._SY232_CB549022351_.jpg"
                     alt="Description of image"
                     width={500}
                     height={300}
@@ -15,7 +15,7 @@ const Category = () => {
             </div>
             <div className="product-card">
                 <Image
-                    src="https://www.codewithfaraz.com/shop_img/master-collection-of-web-and-python-projects.webp"
+                    src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2025/Q1DefectReduction/Fuji_Defect_Reduction_2x_Headphones._SY232_CB549022351_.jpg"
                     alt="Description of image"
                     width={500}
                     height={300}
@@ -24,7 +24,7 @@ const Category = () => {
             </div>
             <div className="product-card">
                 <Image
-                    src="https://www.codewithfaraz.com/shop_img/master-collection-of-web-and-python-projects.webp"
+                    src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2025/Q1DefectReduction/Fuji_Defect_Reduction_2x_Headphones._SY232_CB549022351_.jpg"
                     alt="Description of image"
                     width={500}
                     height={300}
@@ -33,7 +33,7 @@ const Category = () => {
             </div>
             <div className="product-card">
                 <Image
-                    src="https://www.codewithfaraz.com/shop_img/master-collection-of-web-and-python-projects.webp"
+                    src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2025/Q1DefectReduction/Fuji_Defect_Reduction_2x_Headphones._SY232_CB549022351_.jpg"
                     alt="Description of image"
                     width={500}
                     height={300}
