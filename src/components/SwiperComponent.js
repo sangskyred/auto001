@@ -9,7 +9,7 @@ import 'swiper/css/navigation';
 import '../styles/styles.css';
 
 // import required modules
-import { Navigation } from 'swiper/modules';
+import { Navigation, Pagination } from 'swiper/modules';
 
 export default function App() {
   const images = [
@@ -27,19 +27,31 @@ export default function App() {
         slidesPerView={3}
         spaceBetween={10}
         navigation={true}
-        modules={[Navigation]}
+        modules={[Navigation, Pagination]}
         breakpoints={{
-          640: {
+          320: {
             slidesPerView: 2,
+            spaceBetween: 10,
+          },
+          // Mobile devices (e.g., ≥480px)
+          480: {
+            slidesPerView: 2,
+            spaceBetween: 15,
+          },
+          // Tablets (e.g., ≥768px)
+          768: {
+            slidesPerView: 3,
             spaceBetween: 20,
           },
-          768: {
-            slidesPerView: 4,
-            spaceBetween: 40,
-          },
+          // Small desktops (e.g., ≥1024px)
           1024: {
-            slidesPerView: 5,
-            spaceBetween: 50,
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+          // Large desktops (e.g., ≥1200px)
+          1200: {
+            slidesPerView: 4,
+            spaceBetween: 30,
           },
         }}
         className="mySwiper">
