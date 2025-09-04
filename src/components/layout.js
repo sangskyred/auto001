@@ -1,6 +1,5 @@
 
 import Head from "next/head";
-
 const Layout = ({ children }) => {
     return (
         <>
@@ -10,7 +9,7 @@ const Layout = ({ children }) => {
             <header>
 
             </header>
-            <main>
+            <main className="main">
                 {children}
             </main>
             <footer>
