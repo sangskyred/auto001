@@ -1,7 +1,7 @@
 import React from "react";
 import Category from "../components/category";
 import SwiperComponent from "../components/SwiperComponent";
-import Layout from "../components/Layout";
+import Layout from "../components/layout";
 import Product from "../components/products";
 export const Home = () => {
     return (
